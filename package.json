@@ -1,0 +1,35 @@
+{
+  "name": "hapi-dummy",
+  "version": "1.0.0",
+  "description": "Create a dummy hapi server that only registers one or more plugins. Great for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint --ignore-path .gitignore ."
+  },
+  "lint-staged": {
+    "*.js": "eslint"
+  },
+  "keywords": [
+    "dummy",
+    "hapi",
+    "testing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hydra-newmedia/hapi-dummy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hydra-newmedia/hapi-dummy/issues"
+  },
+  "author": "Filip Weiss <weiss@hydra-newmedia.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "hapi": "^16.0.1",
+    "husky": "^0.11.9",
+    "lint-staged": "^3.2.1"
+  },
+  "peerDependencies": {
+    "hapi": "*"
+  }
+}
